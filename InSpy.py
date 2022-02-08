@@ -26,7 +26,7 @@ if len(sys.argv) == 1:
 
 args = parser.parse_args()
 start_logger(args.company)
-hunterapi = "" #insert hunterio api key here
+hunterapi = "1e5a4bf069ef4d6ac371c2fc427b10d46e9d6222" #insert hunterio api key here
 
 email = args.email
 domain = args.domain
